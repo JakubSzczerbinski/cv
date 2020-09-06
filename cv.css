@@ -1,0 +1,138 @@
+
+@page {
+  size: A4;
+  margin: 20mm;
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
+
+html {
+  font-family: 'Noto Serif', sans-serif;
+  height: 100%;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid #3A89C9;
+  padding-bottom: 2mm;
+}
+
+.clause {
+  text-align: justify;
+  font-size: 8px;
+}
+
+.cv h1 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cv .highlight-color {
+  color: #3A89C9;
+}
+
+.cv h2 {
+  color: #3A89C9;
+  font-weight: 500;
+}
+
+.cv a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cv .contact {
+  display: flex;
+  margin-left: 20mm;
+}
+
+.cv .contact .col {
+  margin-left: 10mm;
+}
+
+.cv .entry {
+  display: flex;
+  margin: 2mm;
+  text-align: justify;
+}
+
+.cv .time {
+  width: 25%;
+}
+
+.cv .content {
+  margin-left: 2mm;
+  text-align: justify;
+  width: 75%;
+}
+
+.cv .title {
+  width: 25%;
+  font-weight: 400;
+}
+
+.cv .content-title {
+  font-weight: 500;
+  color: #3A89C9;
+}
+
+.cv .content-title .description {
+  font-weight: 400;
+  color: black;
+}
+
+.event_day {
+}
+
+.event_table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+.event_day .day_name {
+  font-size: 50px;
+  margin: 10mm;
+}
+
+.event {
+  font-size: 30px;
+  display: table-row;
+  border-bottom: solid white 6mm;
+}
+
+.event .hour {
+  border-left: 4px solid black;
+  width: 40mm;
+  padding-left: 2mm;
+  display: table-cell;
+  vertical-align: top;
+  float: left;
+  font-weight: 400;
+}
+
+.event .lecturer_and_title {
+  vertical-align: top;
+  display: table-cell;
+  width: 100%;
+  font-weight: 300;
+}
+
+.event .lecturer {
+  white-space: nowrap;
+}
+
+.plan {
+  columns: 2;
+  column-gap: 20mm;
+}
+
