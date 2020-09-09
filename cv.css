@@ -6,11 +6,15 @@
   margin-bottom: 10mm;
 }
 
+section {
+  page-break-inside: avoid;
+}
+
 html {
-  font-family: 'Noto Serif', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 body {
@@ -20,7 +24,6 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #3A89C9;
   padding-bottom: 2mm;
 }
 
@@ -30,17 +33,14 @@ header {
 }
 
 .cv h1 {
-  font-weight: 500;
-  text-align: center;
-  font-size: 40px;
-}
-
-.cv .highlight-color {
-  color: #3A89C9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 45px;
 }
 
 .cv h2 {
-  color: #3A89C9;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
@@ -52,7 +52,8 @@ header {
 
 .cv .contact {
   display: flex;
-  margin-left: 20mm;
+  margin-left: -7mm;
+  margin-top: -4mm;
 }
 
 .cv .contact .col {
@@ -61,8 +62,7 @@ header {
 
 .cv .entry {
   display: flex;
-  margin: 2mm;
-  text-align: justify;
+  margin: 3mm;
 }
 
 .cv .time {
@@ -70,69 +70,38 @@ header {
 }
 
 .cv .content {
-  margin-left: 2mm;
+  margin-left: 5mm;
   text-align: justify;
   width: 75%;
 }
 
+.cv .content ul {
+  margin: -1mm 0;
+  padding-left: 3mm;
+}
+
+.cv .content li {
+  margin: 1mm 0;
+}
+
+.cv p {
+  text-align: justify;
+  margin-left: 3mm;
+}
+
 .cv .title {
   width: 25%;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .cv .content-title {
-  font-weight: 500;
-  color: #3A89C9;
+  margin-bottom: 2mm;
+  font-weight: 700;
 }
 
 .cv .content-title .description {
   font-weight: 400;
+  font-style: italic;
   color: black;
-}
-
-.event_day {
-}
-
-.event_table {
-  width: 100%;
-  display: table;
-  border-collapse: collapse;
-}
-
-.event_day .day_name {
-  font-size: 50px;
-  margin: 10mm;
-}
-
-.event {
-  font-size: 30px;
-  display: table-row;
-  border-bottom: solid white 6mm;
-}
-
-.event .hour {
-  border-left: 4px solid black;
-  width: 40mm;
-  padding-left: 2mm;
-  display: table-cell;
-  vertical-align: top;
-  float: left;
-  font-weight: 400;
-}
-
-.event .lecturer_and_title {
-  vertical-align: top;
-  display: table-cell;
-  width: 100%;
-  font-weight: 300;
-}
-
-.event .lecturer {
-  white-space: nowrap;
-}
-
-.plan {
-  columns: 2;
-  column-gap: 20mm;
 }
 

@@ -2,34 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="cv.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Board ticket</title>
-    <meta name="description" content="Board ticket">
+    <link
+      href="cv.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    >
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" 
+      rel="stylesheet"
+    >
+    <title>Jakub Szczerbiński's CV</title>
+    <meta name="description" content="Jakub Szczerbiński CV">
   </head>
 
   <body>
 
     <div class="cv">
       <header>
-        <h1>Jakub <span class="highlight-color">Szczerbiński</span></h1>
+        <h1>Jakub Szczerbiński | CV</h1>
         <div class="contact">
-          <div class="col">
-            <div>
-              <i class="fab fa-github"></i>
-              &nbsp;
-              <a href="http://www.github.com/JakubSzczerbinski">
-                github.com/JakubSzczerbinski
-              </a>
-            </div>
-            <div>
-              <i class="far fa-envelope"></i>
-              &nbsp;
-              <a href="mailto:jakub@szczerbin.ski">
-                jakub@szczerbin.ski
-              </a>
-            </div>
-          </div>
           <div class="col">
             <div>
               <i class="fab fa-linkedin"></i>
@@ -39,8 +35,31 @@
               </a>
             </div>
             <div>
+              <i class="fab fa-github"></i>
+              &nbsp;
+              <a href="http://www.github.com/JakubSzczerbinski">
+                github.com/JakubSzczerbinski
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <i class="far fa-envelope"></i>
+              &nbsp;
+              <a href="mailto:jakub@szczerbin.ski">
+                jakub@szczerbin.ski
+              </a>
+            </div>
+            <div>
               <i class="fas fa-mobile-alt"></i>
                &nbsp; (+48) 530 314 540
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <i class="fas fa-home"></i>
+              &nbsp;
+              Wrocław, Poland
             </div>
           </div>
         </div>
@@ -58,7 +77,11 @@
                     Nokia Solutions and Networks
                   </div>
                 </div>
-                I worked on a backend of configuration and management application for BTSes. I was responsible for adding new functionality and testing it thoroughly. Two most valuable learning experiences for me were implementing user management/authentication component and redesigning software update component.
+                <ul>
+                  <li> Worked on software for base tranceiver stations. </li>
+                  <li> Responsible for creating and testing new functionality in user management and authentication areas. </li>
+                  <li> Wrote in <b>C++</b>, tested with <b>GTest</b>/<b>GMock</b> and <b>Python</b> (integration), used Bash/Python for build/automation scripts </li>
+                </ul>
               </div>
           </div>
           <div class="entry">
@@ -72,7 +95,9 @@
                   Nokia Solutions and Networks
                 </div>
               </div>
-              I was introduced to a project that I was a member of as a software developer.
+              <ul>
+                <li> Transitioned to full position after 3 months. </li>
+              </ul>
             </div>
           </div>
       </section>
@@ -81,7 +106,7 @@
   <h2> Education </h2>
   <div class="entry">
     <div class="time">
-      oct 2015 - (feb 2020)
+      oct 2016 - (feb 2021)
     </div>
     <div class="content">
       <div class="content-title">
@@ -99,27 +124,42 @@
 
   <div class="entry">
     <div class="title">
-      C++
-    </div>
-    <div class="content">
-      C++17, Generic programming, Metaprograming, Boost, CMake, GTest,
-      GMock, Google Benchmark.
-    </div>
-  </div>
-    <div class="entry">
-    <div class="title">
       Programming languages
     </div>
     <div class="content">
-      JavaScript, Lua, OCaml, Prolog, Python.
+      <ul>
+        <li> <em>experienced</em>: <b>C++11/14/17</b>,
+        <li> <em>proficient</em>: <b>Scala</b>, <b>JavaScript/TypeScript</b>,</li>
+        <li> <em>familiar</em>: <b>Python</b>, <b>Bash</b>, <b>Java</b>, Lua, Prolog, OCaml, Haskell.</li>
+      </ul>
     </div>
   </div>
+
   <div class="entry">
     <div class="title">
-      Software Tools
+      C++ skills
     </div>
     <div class="content">
-      git, svn, gdb, pdb, AddressSanitizer, ThreadSanitizer, valgrind.
+      <ul>
+        <li> <em> techniques</em>: generic programming, metaprograming, </li>
+        <li> <em> libraries</em>: Stdlib, Boost, </li>
+        <li> <em> build systems</em>: <b>CMake</b>, GNU Make, GN, Ninja, </li>
+        <li> <em> testing tools</em>: <b>GTest</b>, <b>GMock</b>, Google Benchmark, </li>
+        <li> <em> debugging tools</em>: <b>gdb</b>, valgrind, AddressSanitizer, ThreadSanitizer. </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="title">
+      Software tools
+    </div>
+    <div class="content">
+      <ul>
+        <li> <em> version control</em>: <b>git</b>, svn, </li>
+        <li> <em> networking</em>: <b>Wireshark</b>, </li>
+        <li> <em> containers</em>: <b>Docker</b>, LXC. </li>
+      </ul>
     </div>
   </div>
   <div class="entry">
@@ -127,8 +167,13 @@
       Programming skills
     </div>
     <div class="content">
-      Algortihms and data structures, design patterns, ability to write clean code,
-      functional programming, object oriented programming.
+      <ul>
+        <li> <b>algorithms</b> and <b>data structures</b> </li>
+        <li> design patterns </li>
+        <li> <b>operating systems</b> and <b>computer architechtures</b> </li>
+        <li> <b>functional</b> programming and <b>object oriented</b> programming </li>
+        <li> network programming </li>
+      </ul>
     </div>
   </div>
   <div class="entry">
@@ -136,10 +181,33 @@
       Languages
     </div>
     <div class="content">
-      Polish (native) English (fluent).
+      <ul>
+        <li> <em> native</em>: Polish, </li>
+        <li> <em> fluent</em>: <b> English </b>, </li>
+        <li> <em> basic</em>: German, French, </li>
+        <li> <em> learning</em>: Chinese. </li>
+      </ul>
     </div>
   </div>
 </section>
+
+<section>
+  <h2> Organizational experience</h2>
+  <p>
+    For 4 years I have been involved heavily with organizing ZOSIA - Computer Science Conference/Camp for students, staff and graduates of UWr (University of Wroclaw).
+  </p>
+  <p>
+    I am involved in many areas, mainly:
+  </p>
+  <ul>
+    <li> Preparing, designing and ordering printables, conference shirts etc. </li>
+    <li> Managing finances </li>
+    <li> Creating sponsorship offers </li>
+    <li> Developing and deploying our registration website </li>
+    <li> Improving our organizational processes and effectiveness </li>
+  <ul>
+</section>
+
 <section>
   <h2> Projects </h2>
   <div class="entry">
@@ -203,13 +271,25 @@
 </section>
 
 <section>
-  <h2> Interests </h2>
-  <div class="entry">
-In my spare time on the weekend I brew beer or cook something really good. I love playing board games with friends, especially those games that make people
-argue a lot. I like to be involved in organizing events, for example I help with organizing ZOSIA (Zimowy Obóz
-Studetów Informatyki - Winter Camp of Computer Science Students) every year.
-  </div>
+  <h2> Achievements </h2>
+  <p>
+  <ul>
+    <li> Half-finalist of Polish Olimpiad in Informatics </li>
+    <li> Half-finalist of Polish Olimpiad in Mathematical Linguistics</li>
+    <li> 2nd place in Let's Hack !T hackathon
+  </ul>
+  </p>
 </section>
+
+<section>
+  <h2> Interests </h2>
+  <p>
+    <b> Books</b>: Detective, Science Fiction, Fantasy, Psychology, History, Journalism &middot;
+    <b> Movies</b>: all of them, most notably documentaries and indie movies &middot; 
+    <b> Other</b>: cooking, skiing, water sports, board games, competitive PC games, cRPGs.
+  </p>
+</section>
+
 
 </div>
 <div class="clause">
@@ -217,3 +297,4 @@ Studetów Informatyki - Winter Camp of Computer Science Students) every year.
 
   </body>
 </html>
+
