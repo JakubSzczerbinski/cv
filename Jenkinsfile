@@ -9,7 +9,7 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: 'JakubSzczerbinskiCV*.pdf'
+            archiveArtifacts artifacts: 'JakubSzczerbińskiCV*.pdf'
         }
     }
 }
