@@ -14,7 +14,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 body {
@@ -67,6 +67,7 @@ header {
 
 .cv .time {
   width: 25%;
+  font-weight: bold;
 }
 
 .cv .content {
@@ -100,7 +101,7 @@ header {
 }
 
 .cv .content-title .description {
-  font-weight: 400;
+  font-weight: 700;
   font-style: italic;
   color: black;
 }
